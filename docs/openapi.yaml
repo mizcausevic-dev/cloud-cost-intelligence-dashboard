@@ -1,0 +1,94 @@
+openapi: 3.1.0
+info:
+  title: Cloud Cost Intelligence Dashboard
+  version: 1.0.0
+  description: >
+    Recruiter-ready API for cloud cost visibility, anomaly detection, budget variance
+    analysis, and optimization prioritization across accounts and services.
+servers:
+  - url: http://localhost:3000
+paths:
+  /health:
+    get:
+      summary: Service health status
+      responses:
+        '200':
+          description: Healthy service response
+  /api/accounts:
+    get:
+      summary: List cloud accounts
+      responses:
+        '200':
+          description: Array of cloud account records
+  /api/services:
+    get:
+      summary: List tracked services
+      responses:
+        '200':
+          description: Array of cloud service records
+  /api/costs:
+    get:
+      summary: List cost records
+      responses:
+        '200':
+          description: Array of modeled cost records
+  /api/budgets:
+    get:
+      summary: List budget records
+      responses:
+        '200':
+          description: Array of budget records
+  /api/anomalies:
+    get:
+      summary: List detected anomalies
+      responses:
+        '200':
+          description: Array of anomaly objects
+  /api/recommendations:
+    get:
+      summary: List optimization recommendations
+      responses:
+        '200':
+          description: Array of optimization recommendations
+  /api/dashboard/summary:
+    get:
+      summary: Dashboard summary view
+      responses:
+        '200':
+          description: Aggregate cost governance summary
+  /api/analyze/costs:
+    post:
+      summary: Analyze a cost scenario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Cost analysis result
+  /api/analyze/anomaly:
+    post:
+      summary: Analyze an anomaly scenario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Anomaly analysis result
+  /api/analyze/recommendation:
+    post:
+      summary: Generate an optimization recommendation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Recommendation result
