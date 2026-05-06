@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.DS_Store
+coverage/
+*.log
+cloud-cost-dev.pid
+screenshots/*.html
