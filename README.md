@@ -1,5 +1,10 @@
 # Cloud Cost Intelligence Dashboard
 
+[![Live demo: Cloud Cost Optimizer](docs/demo-preview.png)](https://finops.kineticgain.com)
+
+**Live demo:** [https://finops.kineticgain.com](https://finops.kineticgain.com) . Client-side, zero data egress.
+
+
 > **TypeScript FinOps portfolio project** demonstrating cloud spend visibility, budget variance review, anomaly detection, optimization prioritization, and platform-oriented cost governance.
 
 **Recruiter takeaway:** *"This person understands cloud cost as an engineering and operations governance problem, not just a billing export."*
