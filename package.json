@@ -1,7 +1,7 @@
 {
   "name": "cloud-cost-intelligence-dashboard",
   "version": "1.0.0",
-  "description": "Recruiter-ready TypeScript service for cloud cost visibility, anomaly detection, optimization scoring, and FinOps-style governance workflows.",
+  "description": "TypeScript service for cloud cost visibility, anomaly detection, optimization scoring, and FinOps-style governance workflows.",
   "type": "module",
   "main": "dist/server.js",
   "scripts": {

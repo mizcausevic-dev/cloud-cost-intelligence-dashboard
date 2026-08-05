@@ -3,7 +3,7 @@ info:
   title: Cloud Cost Intelligence Dashboard
   version: 1.0.0
   description: >
-    Recruiter-ready API for cloud cost visibility, anomaly detection, budget variance
+    API for cloud cost visibility, anomaly detection, budget variance
     analysis, and optimization prioritization across accounts and services.
 servers:
   - url: http://localhost:3000

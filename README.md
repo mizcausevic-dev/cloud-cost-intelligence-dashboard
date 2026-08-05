@@ -7,7 +7,6 @@
 
 > **TypeScript FinOps portfolio project** demonstrating cloud spend visibility, budget variance review, anomaly detection, optimization prioritization, and platform-oriented cost governance.
 
-**Recruiter takeaway:** *"This person understands cloud cost as an engineering and operations governance problem, not just a billing export."*
 
 ---
 
@@ -28,7 +27,7 @@
 
 Cloud Cost Intelligence Dashboard models the kind of internal platform service engineering leadership, DevOps teams, and finance stakeholders use to understand where infrastructure spend is going and what to optimize next. Instead of presenting raw cost numbers, the API turns modeled cost data into actionable operational signals such as budget overrun severity, low-utilization risk, month-over-month cost spikes, and optimization recommendations.
 
-The result is a recruiter-facing backend project that feels like a realistic FinOps and cloud governance capability rather than a toy dashboard or CSV parser.
+The result is a backend project that models a realistic FinOps and cloud governance capability rather than a toy dashboard or CSV parser.
 
 ---
 
